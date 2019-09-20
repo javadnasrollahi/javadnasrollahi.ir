@@ -133,7 +133,7 @@
 		width: 40px;
 		height: 1px;
 		position: absolute;
-		left: 0;
+		right: 0;
 		bottom: -1px;
 		background:/*mainColor*/#fdc750;
 	}
@@ -147,9 +147,10 @@
 	}
 	/* Logo */
 	#logo {
-		float:left;
+		direction: rtl;
+		float:right;
 		overflow:hidden;
-		margin-left:10px;
+		margin-right:10px;
 		/*display:none;*/
 	}
 	#logo h2 {
@@ -164,11 +165,11 @@
 	}
 	/* Social icons */
 	.socialicons {
-		float:right;
+		float:left;
 		margin-top:18px;
 	}
 	.socialicons li {
-		float:left;
+		float:right;
 		display:inline;
 		margin:0;
 		padding:0;
@@ -206,13 +207,13 @@
 	}
 	/* About */
 	.about {
-		float:left;
+		float:right;
 		margin-top:30px;
 		width:490px;
-		margin-left:20px;
+		margin-right:20px;
 	}
 	.about .photo-inner {
-		float:left;
+		float:right;
 		background:url(../images/photo-inner.png) no-repeat;
 		width:192px;
 		height:212px;
@@ -222,18 +223,21 @@
 		background-color:#FFF;
 	}
 	.about h1 {
+		direction: rtl;
 		font-weight:900;
 		color:#FFF;
 		line-height:34px;
 		margin-top:8px;
 	}
 	.about h3 {
+		direction: rtl;
 		margin-top:5px;
 		font-size:18px;
 		color:#FFF;
 		line-height:18px;
 	}
 	.about p {
+		direction: rtl;
 		font-size:14px;
 		margin-top:15px;
 		color:/*profileTextColor*/#a87f09;
@@ -242,13 +246,14 @@
 	}
 	/* Personal info */
 	.personal-info {
-		float:left;
+		direction: rtl;
+		float:right;
 		margin-top:30px;
 		width:310px;
 		min-height:230px;
-		margin-left:10px;
-		background:url(../images/personal-info-sep.png) no-repeat left top;
-		padding:20px 0 0 20px;
+		margin-right:10px;
+		background:url(../images/personal-info-sep-rtl.png) no-repeat right top;
+		padding:20px 20px 0 0;
 	}
 	.personal-info li {
 		font-size:14px;
@@ -257,7 +262,7 @@
 	}
 	.personal-info li label {
 		color:/*profileTextColor*/#a87f09;
-		float:left;
+		float:right;
 		padding:4px 7px;
 		font-weight:600;
 		border-radius: 3px;
@@ -265,7 +270,7 @@
 		-webkit-border-radius: 3px;
 	}
 	.personal-info li span {
-		float:right;
+		float:left;
 		width:220px;
 		padding-top: 4px;
 		font-weight: 300;
@@ -341,6 +346,7 @@
 		/* Resume Section */
 	/*-------------------------------------------------------*/
     #resume {
+		direction: rtl;
 		padding:40px 20px;
 		overflow:hidden;
 	}
@@ -360,11 +366,11 @@
 	}
 	.timeline li .timelineUnit {
 		line-height:17px;
-		margin-left:0px;
+		margin-right:0px;
 		color: #444;
 		font-size:13px;
-		border-left:1px solid /*mainColor*/#fdc750;
-		padding-left:15px;
+		border-right:1px solid /*mainColor*/#fdc750;
+		padding-right:15px;
 	}
 	.timeline li .timelineUnit .timelineDate {
 		line-height:17px;
@@ -373,7 +379,7 @@
 		margin-left:10px;
 		font-weight: normal;
 		padding:2px 6px;
-		float:right;
+		float:left;
 	}
 	.timeline li .timelineUnit h4 {
 		line-height:24px;
@@ -396,6 +402,7 @@
 		width:270px;
 	}
 	.skills {
+		direction: ltr;
 		margin-bottom: 25px;
 		overflow:hidden;
 	}
@@ -455,6 +462,7 @@
 		/* Portfolio Section */
 	/*-------------------------------------------------------*/
     #portfolio {
+		direction: rtl;
 		padding:20px 20px 20px 20px;
 	}
 	/* Images list */
@@ -463,8 +471,8 @@
 		overflow:hidden;
 	}
 	#portfolio-list li {
-		float:left;
-		margin-right:25px;
+		float:right;
+		margin-left:25px;
 		text-align:center;
 		background-color:#fbfbfb;
 		border-bottom:1px solid #e5e5e5;
@@ -806,6 +814,7 @@
 		/* Contact Section */
 	/*-------------------------------------------------------*/
     #contact {
+		direction: rtl;
 		padding:30px 0;
 		overflow:hidden;
 	}
@@ -821,9 +830,9 @@
 	}
 	/* Contact info */
 	.contact-info ul {
-		float:left;
-		border-left:1px solid /*mainColor*/#fdc750;
-		padding-left:18px;
+		float:right;
+		border-right:1px solid /*mainColor*/#fdc750;
+		padding-right:18px;
 	}
 	.contact-info ul li {
 		font-size:13px;
@@ -1216,7 +1225,7 @@
 		margin:10px 0 15px 10px;
 	}
 	.about .photo-inner {
-		margin-left:40px;
+		margin-right:40px;
 		background:url(../images/photo-inner.png) no-repeat;
 		width:192px;
 		height:212px;
