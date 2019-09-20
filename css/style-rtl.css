@@ -1,11 +1,25 @@
   /* font-Tanha */
   @font-face {
 	font-family: Tanha;
-	src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
-	src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
-		 url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
-		 url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+	src: url('../fonts/tanha/tanha.eot');
+	src: url('../fonts/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/tanha/tanha.woff') format('woff'),
+		 url('../fonts/tanha/tanha.ttf') format('truetype');
 	font-weight: normal;
+  }
+
+
+  
+
+  @font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/DroidKufi/DroidKufi-Regular.eot");
+    src: url("../fonts/DroidKufi/DroidKufi-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/DroidKufi/DroidKufi-Regular.woff2") format('woff2'),
+         url("../fonts/DroidKufi/DroidKufi-Regular.woff") format('woff'),
+         url("../fonts/DroidKufi/DroidKufi-Regular.ttf") format('truetype');
   }
 
 /*-------------------------------------------------------*/
